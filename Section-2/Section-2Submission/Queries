@@ -1,0 +1,31 @@
+"• Find the first name, last name, and rank for all mentors at Codi. 
+• Find all instructors at office ‘333’. 
+• Find all instructors who earn greater than $1000. 
+• Find the first name, last name, and rank for all instructors who earn greater than $1000. 
+• Find the first and last name of all instructors for the department named “English & Life Skills”. 
+• Find the student number of all students having the “Development” skill 
+• Find the student SSN of all students having the “Development” skill "
+
+
+"select first-name , last-name , level from mentors"
+
+
+"select first-name from Mentor
+where office=333"
+
+"select first-name from Mentor
+where salary > $1000"
+
+"select first-name , last-name , level from Mentor
+where salary > $1000"
+
+"select first-name.Mentor , last-name.Mentor from Mentor
+inner join name.Department
+where name.Department = "English & Life Skills""
+
+"select COUNT(id) from student
+where skills="Development""
+
+"select * from student
+where skills="Development""
+
